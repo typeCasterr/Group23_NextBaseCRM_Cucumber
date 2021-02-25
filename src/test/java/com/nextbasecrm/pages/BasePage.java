@@ -335,7 +335,7 @@ public abstract class BasePage {
     public WebElement drive;
 
     //Calendar on the left side menu
-    @FindBy(xpath = "/span[contains(text(), 'Calendar')]")
+    @FindBy(xpath = "/html/body/table/tbody/tr[2]/td/table/tbody/tr[1]/td[1]/div[1]/ul/li[7]/a/span[1]")
     public WebElement calendar;
 
     //Mail on the left side menu
